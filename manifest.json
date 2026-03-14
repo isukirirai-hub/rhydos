@@ -1,0 +1,30 @@
+{
+  "depot": "RHyDOS GGUF Depot",
+  "owner": "Rai Candish",
+  "url": "https://isukirirai-hub.github.io/rhydos",
+  "updated": "2025-01-01",
+  "models": [
+    {
+      "id": "smollm2-114m",
+      "file": "smollm2-135m-instruct-q4_k_m.gguf",
+      "name": "SmolLM2 114M",
+      "params": "114M",
+      "size_mb": 114.8,
+      "quant": "Q4_K_M",
+      "arch": "SmolLM2",
+      "desc": "Smallest in the depot. Fast boot, fast inference.",
+      "context": 2048
+    },
+    {
+      "id": "tinyllama-783m",
+      "file": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+      "name": "TinyLlama 1.1B",
+      "params": "1.1B",
+      "size_mb": 783,
+      "quant": "Q4_K_M",
+      "arch": "LLaMA",
+      "desc": "Good narrative quality. Recommended for text adventure.",
+      "context": 2048
+    }
+  ]
+}
